@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 3</title>
+</head>
+<body>
+    <h2>Complex form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+
+            <label for="emailid">Email:</label>
+            <input type="text" id="emailid" name="emailid">
+            <br><br>
+
+            <label for="phone">Contact:</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+
+            <label for="datepicker1">Date of Birth</label>
+            <input type="date" name="dob" id="datepicker1">
+            <br><br>
+
+            <span>Gender: </span>
+            <input type="radio" name="radio" id="gender1">
+            <label for="radio1">Male</label>
+            <input type="radio" name="radio" id="gender1">
+            <label for="radio2">Female</label>
+            <input type="radio" name="radio" id="gender1">
+            <label for="radio2">Not specify</label>
+            <br><br>
+
+            <label for="location1">Location</label>
+            <select name="Location" id="location1">
+                <option value="" disabled selected>choose..</option>
+                <option value="America">North America</option>
+                <option value="America">South America</option>
+                <option value="Asia">Asia</option>
+                <option value="Africa">Africa</option>
+                <option value="Oceania">Oceania</option>
+                <option value="Europe">Europe</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+            <label for="street">Street: </label>
+            <input type="text" name="Street" id="street">
+            <br><br>
+            <label for="city">City: </label>
+            <input type="text" name="City" id="city">
+            <br><br>
+            <label for="state">State: </label>
+            <input type="text" name="state" id="state">
+            <br><br>
+            <label for="zip">Zip Code: </label>
+            <input type="text" name="Zip" id="zip">
+            <br><br>
+        </fieldset>
+    </form>
+    <fieldset>
+        <legend>Other information</legend>
+        <label for="textarea1">Comments:</label>
+        <br>
+        <textarea name="textarea1" id="textarea1" cols="48" rows="10"></textarea>
+        <br><br>
+        <label for="terms">Agree with Terms and Service</label>
+        <input type="checkbox" id="terms" name="contract">
+    </fieldset>
+    <br>
+    <input type="submit" value="Submit">
+    
+    
+</body>
+</html>

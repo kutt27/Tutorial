@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in HTML</title>
+</head>
+<body>
+    <h1>This is a table example</h1>
+
+    <table border="1">
+        <thead>
+            <th>Gender</th>
+            <th>Baseball</th>
+            <th>Basketball</th>
+            <th>Football</th>
+            <th>Totol</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Male</td>
+                <td>13</td>
+                <td>15</td>
+                <td>20</td>
+                <td rowspan="2">48</td>
+            </tr>
+            <tr>
+                <td>Male</td>
+                <td>13</td>
+                <td>15</td>
+                <td>20</td>
+                <!-- Expanding the column to the required in the above code -->
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>20</td>
+                <td>16</td>
+                <td>16</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>20</td>
+                <td colspan="2">16</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>36</td>
+                <td>31</td>
+                <td>33</td>
+                <td>148</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
