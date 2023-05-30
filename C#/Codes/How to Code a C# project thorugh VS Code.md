@@ -22,3 +22,7 @@ code .
 ```
 
 ### Running the Project in VSCode
+
+```shell
+dotnet run
+```
