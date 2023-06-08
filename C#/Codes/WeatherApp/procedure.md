@@ -1,5 +1,3 @@
-Certainly! I can guide you through the process of building a weather app in C# using an API. Let's break down the steps:
-
 1. Choose a Weather API and Obtain API Key:
    As mentioned, OpenWeatherMap is a popular choice for weather data. Sign up for a free account at OpenWeatherMap (openweathermap.org) and obtain an API key.
 
